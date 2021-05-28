@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<style>
+    body{
+        background-color: pink;
+        display: flex;
+    }
+    .container{
+        background-color: blue;
+        /* display: flex; */
+        width: 1000px;
+        padding: 100px;
+        border-radius: 20px;
+    }
+    h1{
+        margin: auto;
+        border: 2px solid red;
+        /* padding: 10px; */
+        box-shadow: 7px 10px;
+        background-color: violet;
+    }
+    .formgroup{
+        border-radius: 2px;
+        border: 2px solid red;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1><br><br>
+        <form action="notation.php"></form>
+        <div class="formgroup">
+            Email_id*<input id="Email" type="text" name="Email" placeholder="Email_id"> <br><br>
+            Password*<input id="Password" type="text" name="Password" placeholder="Password"><br><br>
+            DOB <input id="dob" type="date" placeholder="DOB" name="dob"><br><br>
+            Place of Birth<input id="Place" type="text" nmae="Place" placeholder="Place"><br>
+            <a href="Sign out.html">asda</a><br>
+            <p><button id="subm" onclick="">Submit</button></p>
+            
+        </div>
+    </div>
+    <!-- <script> -->
+    <script>
+          let para=document.getElementById('subm');
+          para.addEventListener('mouseover',function run(){
+confirm("Sign Up to be with us");
+          });
+          let show=document.getElementById(onclick)
+          let dis=document.getElementById('')                
+          </script>
+            <!-- // console.log(bin(subm)); -->
+    <!-- </script> -->
+</body>
+</html>
