@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Out</title>
+</head>
+<style>
+    body{
+        /* border-radius: 2px solid red; */
+        background-color: pink;
+        /* display: flex; */
+        /* margin: 10px; */
+        /* width: 1000rem; */
+        /* height: 500px; */
+    }
+    .container{
+
+        background-color: blue;
+        /* width: 300px; */
+        height:300px;
+        /* display: flex; */
+    }
+    h1{
+        display: flex;
+        /* border: 2px solid #ff0000; */
+        border-radius: 2px;
+        width: 11000px;
+    }
+    #sign_out{
+        display: flex;
+        width: 1000px;
+        padding: 1px;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Hlo Guys, Welcome</h1><br>
+
+
+
+        <p>Do you Want to Exit</p><br>
+        <!-- <button id="sign_out"></a>signout</button></a> -->
+        <a href="Validate.html" onclick="sign_out" id="sign_out"><h>Sign Out</h></a>
+            <!-- <p><button id="subm">Submit</button></p> -->
+        </div>
+    </div>
+
+
+
+
+    <script>
+//         let para=document.getElementById('sign_out');
+//         para.addEventListener('mouseout',function run(){
+// confirm("Do you want to exit");
+// }
+
+
+
+let par=document.getElementById('sign_out');
+        para.addEventListener('mouseover',function run(){
+confirm("Do you want to exit");
+}
+
+
+
+        );
+               
+        </script>
+</body>
+</html>
